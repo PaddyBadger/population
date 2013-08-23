@@ -1,4 +1,4 @@
-requier_relative 'csv_reader'
+require_relative 'csv_reader'
 require_relative 'area'
 
 class Setup

@@ -10,4 +10,5 @@ class Area
 
   def to_s
     "#{city}, #{state} has a population of #{estimated_population} people."
+  end
 end

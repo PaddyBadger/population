@@ -39,7 +39,7 @@ class CSVReader
   end
 
   def read
-    f = File.new(2fname, 'r')
+    f = File.new(@fname, 'r')
 
     #grab headers
     self.headers = f.readline
